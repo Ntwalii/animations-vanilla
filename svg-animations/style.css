@@ -1,0 +1,15 @@
+#dark1,
+#light1,
+#dark2 {
+  transition: all 1s ease;
+}
+#dark1 {
+  transform: translateX(-100%);
+}
+svg:hover #dark1 {
+  transform: translateX(0%);
+}
+svg:hover #dark2 {
+    transform: translateX(40%);
+    opacity: 0;
+}
