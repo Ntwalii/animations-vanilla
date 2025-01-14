@@ -1,0 +1,29 @@
+h1 {
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  animation: freestyle 2s;
+}
+
+@keyframes freestyle {
+    0%{
+        opacity: 100%;
+    }
+    25%{
+        transform: translateY(10%);
+    }
+    50%{
+        opacity: 50%;
+        transform: translateY(8%);
+    }
+    75%{
+        transform: translateY(10%);
+    }
+    100%{
+        opacity: 100%
+    }
+}
